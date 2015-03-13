@@ -1,0 +1,228 @@
+/*
+Theme Name: socialspark
+*/
+
+
+/*
+RTL Basics
+*/
+
+
+body {
+	direction:rtl;
+	unicode-bidi:embed;
+}
+
+/* =Fonts
+-------------------------------------------------------------- */
+body,
+input,
+textarea,
+.pingback a.url,
+h3#comments-title,
+h3#reply-title,
+#top-menu-links .menu,
+#top-menu-links div.menu ul,
+#cancel-comment-reply-link,
+.form-allowed-tags,
+#site-info,
+#logo,
+#wp-calendar,
+.comment-meta,
+.comment-body tr th,
+.comment-body thead th,
+.entry-content label,
+.entry-content tr th,
+.entry-content thead th,
+.entry-meta,
+.entry-title,
+.entry-utility,
+#respond label,
+.pagination,
+.page-title,
+.page-title span,
+.pingback p,
+.reply,
+.widget-title,
+.wp-caption-text,
+input[type=submit] {
+	font-family: Arial, Tahoma, sans-serif;
+}
+
+/* =Global Elements
+-------------------------------------------------------------- */
+
+/* Text elements */
+ul {
+	margin: 0 1.5em 18px 0;
+}
+blockquote {
+	font-style: normal;
+}
+
+/* Text meant only for screen readers */
+.screen-reader-text {
+	left: auto;
+	text-indent:-9000px;
+	overflow:hidden;
+}
+
+
+/* =Header
+-------------------------------------------------------------- */
+
+#logo {
+	float: right;
+	font-size: 30px;
+	line-height: 36px;
+	margin: 0 0 18px 0;
+	padding-top: 10px;
+}
+#logo img {
+	padding-right: 20px;
+}
+#site-description {
+	clear: left;
+	float: left;
+	padding-left: 30px;
+}
+#top-menu-links .top-menu {
+	float: right;
+}
+#top-menu-links ul ul {
+	right: 0;
+}
+#top-menu-links ul ul ul {
+	right: 100%;
+}
+#top-meu-subscribe {
+	left: 20px;
+}
+#main-menu .main-menu {
+	float: right;
+}
+#main-menu ul ul {
+	right: 0;
+}
+#main-menu ul ul ul {
+	right: 100%;
+}
+#menu-search {
+	left: 40px;
+	right: auto;
+	background-position: left center;
+}
+#menu-search input.search {
+	background-position: left center;
+}
+
+/* =Content
+-------------------------------------------------------------- */
+
+#content {
+	padding-left: 0;
+}
+#content-left {
+	padding-left: 40px;
+}
+#content table {
+	text-align: right;
+	margin: 0 0 24px -1px;
+}
+
+/* =Pagination
+-------------------------------------------------------------- */
+
+#pagination {
+	float: left;
+	margin-left: -15px;
+}
+
+/* =Posts
+-------------------------------------------------------------- */
+div.entry_thumb {
+	float: right;
+}
+div.entry_text {
+	text-align: right;
+	margin: 0 220px 0 0;
+}
+a.continue {
+	float: left;
+}
+div.entry_single {
+	text-align: right;
+}
+.entry_meta_text {
+	float: right
+}
+.entry_meta_icons {
+	float: left;
+	margin-top: 0;
+}
+.authorpic {
+	float: right;
+	margin-right: 0;
+}
+.post-author {
+	margin: 0 130px 0 0;
+}
+.author-descr {
+	text-align: right;
+}
+h3.entry_title {
+	text-align: right;
+}
+
+/* Gallery listing
+-------------------------------------------------------------- */
+
+.category-gallery .gallery-thumb {
+	float: right;
+ 	margin-left:20px;
+	margin-right:0;
+}
+
+/* Images
+-------------------------------------------------------------- */
+
+#content .gallery .gallery-caption {
+	margin-right: 0;
+}
+
+#content .gallery .gallery-item {
+	float: right;
+}
+
+/* =Footer
+-------------------------------------------------------------- */
+
+#menu-footer-menu {
+	float: right;
+}
+
+
+/* =Comments
+-------------------------------------------------------------- */
+
+.comment-author {
+	text-align: right;
+}
+
+/* =Widget Areas
+-------------------------------------------------------------- */
+
+ul.widget-area li h3 {
+	text-align: right;
+}
+
+ul.widget-area li ul li {
+	text-align: right;
+}
+
+#wp-calendar caption {
+	text-align: right;
+}
+#wp-calendar tfoot #next {
+	text-align: left;
+}
